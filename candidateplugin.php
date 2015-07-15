@@ -1,6 +1,7 @@
 <?php
 /*
 	Plugin Name: SPD Pfungstadt - Kandidatenplugin 2015
+	Plugin URI: https://github.com/ViMaSter/candidateplugin/
 	Author URI: http://www.vimaster.de/
 	Description: Auflistung aller Kandidaten inklusive Teilbereich und Foto
 	Version: 1.0
