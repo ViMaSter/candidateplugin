@@ -29,6 +29,11 @@
 		// $post->post_title												(Firstname Lastname)
 		// $post->post_content												(Description of the candidate)
 		// $imageURL														(URL of the full sized image of the candidate)
+		// 
+		// get_post_meta( $post->ID, "candidate_hobbies", true );			(Hobbies-meta field)
+		// get_post_meta( $post->ID, "candidate_age", true );				(Age-meta field)
+		// get_post_meta( $post->ID, "candidate_job", true );				(Job-meta field)
+		// get_post_meta( $post->ID, "candidate_listposition", true );		(Listposition-meta field)
 	
 		// Since one candidate can be assigned multiple departments, we itterate again...
 		$departments = wp_get_post_terms($post->ID, 'department', array("fields" => "all"));
