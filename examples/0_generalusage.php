@@ -37,8 +37,8 @@
 	
 		// Since one candidate can be assigned multiple departments, we itterate again...
 		$departments = wp_get_post_terms($post->ID, 'department', array("fields" => "all"));
-		for($i = 0; $i < count($departments); $i++) {
-			$department = $departments[$i];
+		for($j = 0; $j < count($departments); $j++) {
+			$department = $departments[$j];
 
 			// ...and can echo some useful values here too
 			// $department->name	(Display name of department)
