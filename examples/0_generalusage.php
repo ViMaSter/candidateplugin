@@ -23,6 +23,7 @@
 	for($i = 0; $i < count($candidateQuery->posts); $i++) {
 		$post = $candidateQuery->posts[$i];
 		$imageURL = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), "full", false );
+		$imageURL = $imageURL[0];
 
 		// Useful values to echo here:
 		// $post->ID														(1337)
