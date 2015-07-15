@@ -41,8 +41,9 @@
 			$department = $departments[$j];
 
 			// ...and can echo some useful values here too
-			// $department->name	(Display name of department)
-			// $department->slug	(ID equivalent )
+			// $department->name			(Display name of department)
+			// $department->slug			(ID equivalent)
+			// $department->description		(Content of the discription)
 		}
 	}
 ?>
