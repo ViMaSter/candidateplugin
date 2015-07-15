@@ -1,6 +1,6 @@
 <?php
 /*
-	Plugin Name: SPD Walldorf - Kandidatenplugin 2015
+	Plugin Name: SPD Pfungstadt - Kandidatenplugin 2015
 	Author URI: http://www.vimaster.de/
 	Description: Auflistung aller Kandidaten inklusive Teilbereich und Foto
 	Version: 1.0
