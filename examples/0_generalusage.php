@@ -22,12 +22,13 @@
 	// Itterate over every candidate
 	for($i = 0; $i < count($candidateQuery->posts); $i++) {
 		$post = $candidateQuery->posts[$i];
-		$thumbnailURL = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+		$thumbnailURL = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), "full", false );
 
 		// Useful values to echo here:
 		// $post->ID				(1337)
 		// $post->post_title		(Firstname Lastname)
 		// $post->post_content		(Description of the candidate)
+		// $thumbnailURL			(URL of the )
 	
 		// Since one candidate can be assigned multiple departments, we itterate again...
 		$departments = wp_get_post_terms($post->ID, 'department', array("fields" => "all"));
