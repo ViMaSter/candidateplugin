@@ -54,7 +54,10 @@ function create_department_taxonomy() {
 		'candidate',
 		array(
 			'label' => __( 'Abteilung' ),
-			'rewrite' => array( 'slug' => 'department' )
+			'rewrite' => array(
+				'slug' => 'abteilung',
+				'with_front' => true
+			)
 		)
 	);
 }
